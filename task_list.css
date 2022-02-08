@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, #ebc9a3, #ebbd98, #ebb190, #eba48a, #ea9787, #eb9083, #ec8980, #ed827e, #f18077, #f57d70, #f87c68, #fb7a5f);
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    
+    width:85%;
+    margin: 0 auto;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+ i {
+     padding-right: 5px;
+     
+ }
+
+.wrapper h2 {
+    padding: 15px 0;
+}
+
+ .user-input {
+     margin-top: 0.3em;
+     width: 21.8em;
+     text-align: center;
+     margin: 0 auto;
+ }
+
+ .user-input input {
+     width: 80%;
+     font-size: 14px;
+     outline: none;
+     padding: 8px;
+     border: 1px solid lightgray;
+     border-radius: 10px;
+     margin-bottom: 1em;
+     -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     transition: all 0.30s ease-in-out;
+ }
+
+ .user-input input:focus {
+     box-shadow: 0 0 3px;
+ }
+
+ .container button {
+     margin-bottom: 10px;
+     font-size: 13px;
+     cursor: pointer;
+     padding: 8px;
+     color: rgb(204, 110, 110);
+     background-color: transparent;
+     transition: 0.5s;
+     outline: none;
+     background-color: rgb(255, 255, 255);
+     border: 1px solid lightgray;
+     border-radius: 5px;
+ }
+
+ .container button:hover {
+    background-color: transparent;
+     color: white;
+ }
+
+ #tasks {
+     width: 80%;
+     margin: auto;
+ }
+
+ p {
+     max-width: 500px;
+     width: 100%;
+     margin: 0 auto;
+     background-color: white;
+     border-radius: 15px;
+     box-shadow: 0 0 8px grey;
+     padding: 1em;
+     margin-top: 10px;
+     font-size: 13px;
+     line-height: 1.5em;
+     text-transform: uppercase;
+     -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     transition: all 0.30s ease-in-out;
+ }
+
+ a {
+     text-decoration: none;
+     border-radius: 5px;
+     background-color: red;
+     padding: 2px 5px;
+     color: white;
+     margin-right: 0.5em;
+ }
+
+ a:hover {
+     background-color: rgb(247, 112, 112);
+ }
+
+ @media(max-width: 361px) {
+    .user-input {
+        margin-top: 0.3em;
+        width: 15em;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .user-input input {
+        width: 80%;
+        font-size: 14px;
+        outline: none;
+        padding: 8px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-bottom: 1em;
+        -webkit-transition: all 0.30s ease-in-out;
+        -moz-transition: all 0.30s ease-in-out;
+        -ms-transition: all 0.30s ease-in-out;
+        -o-transition: all 0.30s ease-in-out;
+        transition: all 0.30s ease-in-out;
+    }
+ }
+
+
+
